@@ -1,11 +1,5 @@
 # PHPsondage
 
-voici un exemple de fichier README pour un projet de sondage en PHP :
-
----
-
-" Projet de Sondage en PHP
-
 Ce projet est une application de sondage en pHP permettant aux utilisateurs de créer, partager et participer à des sondages sur divers sujets.
 
 ## Fonctionnalités
@@ -17,14 +11,14 @@ Visualisation des résultats des sondages sous forme de graphiques et de tableau
 Authentification des utilisateurs pour garantir l'identification et la sécurité des données;
 Gestion des sondages par les utilisateurs, y compris la modification, la suppression et le suivi des résultats.
          
-          - ## Technologies Utilisées
+## Technologies Utilisées
          
 php
 MySQL
-6 Html
+Html
 CSS (Bootstrap pour le style)
                
-                - "" structure du projet
+## structure du projet
                
 **sondage.php** : Affiche la liste des sondages disponibles et permet aux utilisateurs de sélectionner un sondage.
 **sondage.php** / Affiche les détails d'un sondage sélectionné et permet aux utilisateurs de répondre au sondage.
@@ -34,11 +28,10 @@ CSS (Bootstrap pour le style)
 **insconnecte.php** : Page d'inscription pour les nouveaux utilisateurs.
 **config.php** : fichier de configuration pour la connexion à la base de données.
                                  
-33 Installation
+## Installation
 
 1. clonez le dépôt gitHub : `git clone https://github.com/MariamBaga/PHPsondage.git`
 2. importez la base de données MySQL à l'aide de mysql_li et PDO;
 3. configurez les informations de connexion à la base de données ;
 4. Lancez l'application en accédant à `http://localhost/sondage/accueil.php dans votre navigateur.
 
-6. N'oubliez pas d'adapter CE README en fonction des spécificités de votre projet et des technologies que vous utiliSEZ.
