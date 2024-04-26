@@ -26,7 +26,7 @@ CSS (Bootstrap pour le style)
 **supprimer.php** : supprime un sondage de la base de données.
 **connexion.php** : page de connexion pour les utilisateurs.
 **insconnecte.php** : Page d'inscription pour les nouveaux utilisateurs.
-**config.php** : fichier de configuration pour la connexion à la base de données.
+
                                  
 ## Installation
 
