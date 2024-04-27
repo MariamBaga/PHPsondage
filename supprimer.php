@@ -56,10 +56,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="alert alert-danger" role="alert">
             Êtes-vous sûr de vouloir supprimer ce sondage ?
         </div>
-        <form action="supprimer.php?id=<?php echo $sondageId; ?>" method="post">
-            <button type="submit" class="btn btn-danger" name="supprimer">Oui, Supprimer</button>
-            <a href="sondage.php" class="btn btn-secondary">Annuler</a>
-        </form>
+        <form action="supprimer.php" method="post">
+    <input type="hidden" name="sondage_id" value="<?php echo $sondageId; ?>">
+    <button type="submit" class="btn btn-danger" name="supprimer">Oui, Supprimer</button>
+    <a href="sondage.php" class="btn btn-secondary">Annuler</a>
+</form>
+
     </div>
 </body>
 </html>
