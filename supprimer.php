@@ -2,7 +2,7 @@
 // Assurez-vous que l'ID du sondage est présent
 if (!isset($_GET['id'])) {
     // Rediriger vers une page d'erreur si l'ID n'est pas fourni
-    header('Location: erreur.php');
+    header('Location: sondage.php');
     exit;
 }
 
